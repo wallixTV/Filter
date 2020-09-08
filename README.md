@@ -198,8 +198,8 @@ ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) RARE ETH !ID]: %GRAY%ETH %Y
 ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
 //Helms
-ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
-ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL>85]:
+//ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
+//ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL>85]:
 //Axes
 ItemDisplay[(7wa OR 9wa OR wax) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
 ItemDisplay[(7wa OR 9wa OR wax) RARE ETH !ID CLVL<86]: %GRAY%ETH %YELLOW%%NAME%
@@ -258,8 +258,10 @@ ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE%
 ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
 ItemDisplay[cm1 MAG ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 MAG ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
+//Large
+ItemDisplay[cm2]:
 //
-ItemDisplay[!UNI (cm1 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
 //Amulets
 ItemDisplay[amu MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
 ItemDisplay[amu MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
@@ -275,17 +277,17 @@ ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Rings
-ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
-ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
-ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 80+]
-ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
-ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
-ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
-ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
-ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
-ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+//ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+//ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+//ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+//ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+//ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 80+]
+//ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+//ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+//ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+//ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+//ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
+//ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Jewels
 ItemDisplay[MAG !ID jew]: %BLUE%¤ %NAME% ¤
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
