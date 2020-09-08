@@ -198,8 +198,8 @@ ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) RARE ETH !ID]: %GRAY%ETH %Y
 ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
 //Helms
-//ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
-//ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL>85]:
+ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
+ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL>85]:
 //Axes
 ItemDisplay[(7wa OR 9wa OR wax) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
 ItemDisplay[(7wa OR 9wa OR wax) RARE ETH !ID CLVL<86]: %GRAY%ETH %YELLOW%%NAME%
