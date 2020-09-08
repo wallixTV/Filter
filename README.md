@@ -258,8 +258,6 @@ ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE%
 ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
 ItemDisplay[cm1 MAG ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 MAG ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
-//Large
-ItemDisplay[cm2]:
 //
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
 //Amulets
